@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 I like tea
 I like chocolate biscuits very much
 I like snow
+=======
+I like beef
+I like genshin
+I like bengtie
+I like delicious food
+I don't like study
+>>>>>>> Alex
