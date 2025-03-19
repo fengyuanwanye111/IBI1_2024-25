@@ -22,7 +22,7 @@ print("Sorted Zhejiang Neighboring Provinces Populations (millions):", china_sor
 plt.figure(1)  # 第一个图
 plt.pie(uk_countries, labels=uk_labels, autopct='%1.1f%%', colors=['lightblue', 'lightgreen', 'lightcoral', 'lightyellow'], explode=(0.1, 0, 0, 0))
 plt.title("UK Population Distribution (2022)")
-plt.show()
+
 
 # China Pie Chart
 plt.figure(2)  # 第二个图
