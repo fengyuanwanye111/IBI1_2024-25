@@ -1,0 +1,4 @@
+Name: 姚仁博
+Age: 18
+Hobby: I like drawing and music
+Goal: Learn Python and Git this year
