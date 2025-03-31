@@ -1,4 +1,4 @@
-Name: 姚仁博
+Name: 姚仁博/Yao Renbo
 Age: 18
 Hobby: I like drawing and music
 Goal: Learn Python and Git this year
