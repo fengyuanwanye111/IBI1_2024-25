@@ -1,4 +1,2 @@
 This practical was fun but challenging. I learned how to use Git commands like add, commit, and merge. 
 The branching part was tricky, especially resolving conflicts. I still have questions about how GitHub Pages works.
-这次实践很有趣但也有难度。我学会了用 Git 的 add、commit 和 merge 命令。分支部分有点难，特别是解决冲突。
-我对 GitHub Pages 怎么工作还有疑问。
