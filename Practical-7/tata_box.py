@@ -45,9 +45,11 @@
 import re  # 导入正则表达式模块 / Import regex module for TATA box matching
 import os  # 导入 os 模块 / Import os module for path checking
 
+os.chdir("Practical-7") # Determine my path
+
 # 定义输入文件的绝对路径 / Define absolute path for input file
 print("Current working directory:", os.getcwd())  # 打印当前工作目录 / Print current working directory
-filename = r'C:\Users\10403\Desktop\IBI1_2024-25\Practical-7\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'  # 输入文件绝对路径 / Absolute path to input file
+filename = r'C:Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'  # 输入文件绝对路径 / Absolute path to input file
 if os.path.exists(filename):  # 检查文件是否存在 / Check if file exists
     print(f"File {filename} exists")
 else:  # 如果文件不存在 / If file does not exist
@@ -56,7 +58,7 @@ else:  # 如果文件不存在 / If file does not exist
 
 # 打开输入文件和输出文件 / Open input and output files
 input_file = open(filename, 'r')  # 打开输入文件，读模式 / Open input file in read mode
-output_file = open(r'C:\Users\10403\Desktop\IBI1_2024-25\Practical-7\tata_genes.fa', 'w')  # 打开输出文件，写模式 / Open output file in write mode
+output_file = open(r'C:tata_genes.fa', 'w')  # 打开输出文件，写模式 / Open output file in write mode
 
 # 初始化变量 / Initialize variables
 current_gene_name = ''  # 当前基因名 / Current gene name

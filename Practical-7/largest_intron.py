@@ -36,7 +36,7 @@ max_length = 0
 for gt in gt_positions:
     for ag in ag_positions:
         if ag > gt:  # 确保 AG 在 GT 后面 / Ensure AG is after GT
-            intron_length = ag - gt + 1  # 计算长度 / Calculate length
+            intron_length = ag - gt + 2  # 计算长度 / Calculate length
             if intron_length > max_length:  # 更新最大长度 / Update max length
                 max_length = intron_length
 print("Largest intron length:", max_length)

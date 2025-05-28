@@ -47,12 +47,14 @@
 import re  # 导入正则表达式模块 / Import regex module
 import os  # 导入 os 模块 / Import os module
 
+os.chdir("Practical-7") # Determine my path
+
 # 获取用户输入的剪接组合 / Get user input for splice combination
 splice_combo = input("Enter splice combination (GTAG, GCAG, ATAC): ")
 output_filename = f"{splice_combo}_spliced_genes.fa"  # 定义输出文件名 / Define output filename
 
-# 定义输入文件的绝对路径 / Define absolute path for input file
-input_filename = r'C:\Users\10403\Desktop\IBI1_2024-25\Practical-7\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
+# 定义输入文件的路径 / Define path for input file
+input_filename = r'Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
 if os.path.exists(input_filename):  # 检查文件是否存在 / Check if file exists
     print(f"Input file {input_filename} exists")
 else:  # 如果文件不存在 / If file does not exist
