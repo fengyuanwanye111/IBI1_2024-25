@@ -74,7 +74,7 @@ plt.figure(figsize=(12, 8), dpi=150)  # 设置图形大小 / Set figure size
 for i, t in enumerate(time_points):
     plt.subplot(2, 2, i+1)  # 创建2x2子图 / Create 2x2 subplot
     plt.imshow(states[t], cmap='viridis', interpolation='nearest')  # 绘制热图 / Plot heatmap
-    plt.title(f'时间/Time {t}')  # 设置标题 / Set title
+    plt.title(f'Time {t}')  # 设置标题 / Set title
     plt.axis('off')  # 关闭坐标轴 / Turn off axes
 
 plt.tight_layout()  # 调整布局 / Adjust layout

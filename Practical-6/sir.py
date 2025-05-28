@@ -60,19 +60,19 @@ for t in range(1000):
 
 # 创建图形 / Create the plot
 plt.figure(figsize=(6, 4), dpi=150)  # 设置图形大小和分辨率 / Set figure size and resolution
-plt.plot(susceptible, label='易感/Susceptible')  # 绘制易感曲线 / Plot susceptible curve
-plt.plot(infected, label='感染/Infected')       # 绘制感染曲线 / Plot infected curve
-plt.plot(recovered, label='康复/Recovered')     # 绘制康复曲线 / Plot recovered curve
-plt.xlabel('时间/Time')                         # X轴标签 / X-axis label
-plt.ylabel('人数/Number of People')             # Y轴标签 / Y-axis label
-plt.title('SIR模型模拟/SIR Model Simulation')   # 图标题 / Plot title
+plt.plot(susceptible, label='Susceptible')  # 绘制易感曲线 / Plot susceptible curve
+plt.plot(infected, label='Infected')       # 绘制感染曲线 / Plot infected curve
+plt.plot(recovered, label='Recovered')     # 绘制康复曲线 / Plot recovered curve
+plt.xlabel('Time')                         # X轴标签 / X-axis label
+plt.ylabel('Number of People')             # Y轴标签 / Y-axis label
+plt.title('SIR Model Simulation')   # 图标题 / Plot title
 plt.legend()                                   # 添加图例 / Add legend
 plt.grid(True)                                 # 添加网格 / Add grid
 plt.savefig('SIR_plot.png')                    # 保存图片 / Save figure (移除type参数)
 plt.show()                                     # 显示图形 / Show plot
 
 # 基本验证 / Basic verification
-print(f"最终易感人数/Final S: {S}")              # 打印最终易感人数 / Print final susceptible
-print(f"最终感染人数/Final I: {I}")              # 打印最终感染人数 / Print final infected
-print(f"最终康复人数/Final R: {R}")              # 打印最终康复人数 / Print final recovered
-print(f"总人口检查/Total population check: {S + I + R} (应等于/should equal {N})")  # 验证总人口 / Verify total population
+print(f"Final S: {S}")              # 打印最终易感人数 / Print final susceptible
+print(f"Final I: {I}")              # 打印最终感染人数 / Print final infected
+print(f"Final R: {R}")              # 打印最终康复人数 / Print final recovered
+print(f"Total population check: {S + I + R} (should equal {N})")  # 验证总人口 / Verify total population
